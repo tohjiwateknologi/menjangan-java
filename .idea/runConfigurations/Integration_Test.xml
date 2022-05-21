@@ -1,0 +1,39 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Integration Test" type="JUnit" factoryName="JUnit">
+    <module name="menjangan-java" />
+    <extension name="coverage" track_test_folders="true">
+      <pattern>
+        <option name="PATTERN" value="io.github.rpcp.RPCPUtilsTest" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="false" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="io.github.rpcp.MainTest" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="false" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="io.github.rpcp.model.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="io.github.rpcp.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="io.github.math.method.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
+    <option name="PACKAGE_NAME" value="io.github.math" />
+    <option name="MAIN_CLASS_NAME" value="io.github.math.MainMathTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="tags" />
+    <tag value="IntegrationTest" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

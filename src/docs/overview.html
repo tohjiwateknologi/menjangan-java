@@ -1,0 +1,58 @@
+<!--
+  ~ Copyright 2022 PT Tohjiwa Teknologi Indonesia
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<html xmlns="http://www.w3.org/1999/html">
+<body>
+<img src="io\github\rpcp\doc-files\menjangan-rpcp-library.png" width="80" alt="description of MyImage">
+<h1 style="display: inline;">Menjangan-java</h1>
+<p>This is the reference for
+    <a href="https://www.github.com/tohjiwateknologi/menjangan-java"
+       target="_blank"><em>Menjangan Java</em></a>.</p>
+<h1>Getting Started</h1>
+<p> Menjangan can't work standalone, you need have an implement of websocket. And Menjangan can work with all major
+    framework : Spring, Micronaut, Quarkus
+</p>
+
+<p>The main entry point to use Menjangan RPCP is simple as create
+    <code><a href="io/github/rpcp/RPCPHost.html">RPCPHost</a> Object</code>. For example:
+</p>
+
+<pre>
+    <code>
+        RPCPHost&lt;WebSocketSession&gt; rpcpHost = new RPCPHost&lt;&gt;("api.glexpress.id/ws", new MyRPCPHostHandler&lt;&gt;());
+    </code>
+</pre>
+
+
+
+<h1>Versions and Compatibility</h1>
+<p>Version 1.0.0
+</p>
+
+<h1>Error Codes</h1>
+<p>Upon errors, the server will throw exceptions with error codes :
+</p>
+<ul>
+    <li>400 &mdash; Invalid request parameters; Malformed requests</li>
+    <li>401 &mdash; Authentication failure</li>
+    <li>403 &mdash; Authorization failure</li>
+    <li>404 &mdash; Object not found</li>
+    <li>500 &mdash; Internal API error</li>
+    <li>503 &mdash; Response temporarily unavailable; caller should retry later</li>
+</ul>
+
+</body>
+</html>

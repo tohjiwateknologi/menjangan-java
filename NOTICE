@@ -1,0 +1,17 @@
+# Menjangan
+
+Menjangan is a high-performance, Free/Open Source RPCP implementation library.
+It was originally written by Eric A. Sanjaya (eric.sanjaya@tohjiwateknologi.co.id), and has
+been in development since 2022.
+It is currently developed by a community of developers.
+
+## Licensing
+
+Menjangan 1.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
