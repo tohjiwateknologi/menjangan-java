@@ -60,13 +60,13 @@ id: 002
 
 {"a": 10, "b": 20}
 ```
-_* faster way connect to demo server you can use [RPCP Tester](https://www.github.com/tohjiwateknologi) tools_
+_* faster way connect to demo server you can use [RPCP Tester](https://github.com/tohjiwateknologi/rpcp-tester) tools_
 
 ## Tools
 
 ### RPCP Tester
 Small web based RPCP Client application to test your RPCP server. with these tools, you can connect, call a procedure,
-and receive an event from server. you can download source code [here](https://www.github.com/tohjiwateknologi).
+and receive an event from server. you can download source code [here](https://github.com/tohjiwateknologi/rpcp-tester).
 
 ## Stay in Touch
 
