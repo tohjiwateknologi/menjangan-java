@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RPCP Unit Test" type="JUnit" factoryName="JUnit">
-    <module name="menjangan-java" />
+    <module name="menjangan-core" />
     <extension name="coverage" track_test_folders="true">
       <pattern>
         <option name="PATTERN" value="io.github.rpcp.model.*" />
